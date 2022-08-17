@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dimanche</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
-<body>
-    <div class="container">
-        <div class="load-wrapp">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-    </div>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- <h1 class="title">dimanche.</h1> -->
+      <div class="container">
+        <section class="clock">
+          <div class="clock__text">
+            <div class="clock__text-hour" id="text-hour"></div>
+            <div class="clock__text-minutes" id="text-minutes"></div>
+            <div class="clock__text-ampm" id="text-ampm"></div>
+          </div>
+
+          <div class="clock__date">
+            <span id="date-day"></span>
+            <span id="date-month"></span>
+            <span id="date-year"></span>
+          </div>
+        </section>
+        <p>please wait...</p>
+      </div>
+    </main>
+
     <script src="./assets/js/main.js"></script>
-</body>
+  </body>
 </html>
